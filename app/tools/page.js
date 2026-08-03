@@ -1,0 +1,2 @@
+import Calculators from "@/components/Calculators";import UtmBuilder from "@/components/UtmBuilder";
+export const metadata={title:"Free Marketing Tools",description:"Free calculators and campaign tools for marketers."};export default function Page(){return <div className="container"><div className="pagehead"><div className="kicker">Free tools</div><h1>Make faster decisions</h1><p className="lead">Useful campaign math without opening another spreadsheet.</p></div><UtmBuilder/><div style={{height:22}}/><Calculators/></div>}

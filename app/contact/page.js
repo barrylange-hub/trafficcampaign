@@ -1,0 +1,1 @@
+export const metadata={title:"Contact"};export default function Page(){return <div className="article"><div className="kicker">Contact</div><h1>Get in touch</h1><p>Questions, feedback, partnership ideas, or suggestions for a tool? Email <a href="mailto:hello@trafficcampaign.com">hello@trafficcampaign.com</a>.</p></div>}

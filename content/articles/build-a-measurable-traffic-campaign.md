@@ -3,10 +3,16 @@ title: "How to Build a Traffic Campaign You Can Actually Measure"
 description: "A practical framework for choosing a goal, setting up tracking, and knowing whether your traffic campaign is really working."
 date: "2026-08-02"
 author: "TrafficCampaign Editorial"
+authorBio: "The TrafficCampaign editorial team creates practical, measurement-first marketing guidance for operators and business owners."
+updated: "2026-08-04"
 category: "Marketing Strategy"
 tags: [campaign planning, analytics, measurement]
 seoTitle: "How to Build a Measurable Traffic Campaign"
 seoDescription: "Learn how to plan a traffic campaign with a clear goal, useful KPIs, clean tracking, and a simple optimization loop."
+faq1Question: "What is a traffic campaign?"
+faq1Answer: "A traffic campaign is a coordinated marketing effort designed to send a defined audience to a website, landing page, offer, or other destination while tracking the business result."
+faq2Question: "What should a traffic campaign measure?"
+faq2Answer: "Measure the business outcome first, then supporting metrics such as qualified visits, conversion rate, cost per conversion, revenue, and return on spend."
 ---
 A traffic campaign is only useful if you know what happened after the click. The simplest way to avoid wasted effort is to define the business outcome first, then work backward into channels, tracking, and optimization.
 

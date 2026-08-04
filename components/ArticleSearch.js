@@ -1,0 +1,4 @@
+"use client";
+import {useMemo,useState} from "react";
+import Link from "next/link";
+export default function ArticleSearch({articles}){const[q,setQ]=useState("");const filtered=useMemo(()=>{const s=q.trim().toLowerCase();if(!s)return articles;return articles.filter(a=>[a.title,a.description,a.category,...(a.tags||[])].join(" ").toLowerCase().includes(s))},[q,articles]);return <><div className="searchbox"><label htmlFor="article-search">Search guides</label><input id="article-search" value={q} onChange={e=>setQ(e.target.value)} placeholder="Try: UTM, ROAS, analytics…"/></div><div className="article-grid">{filtered.map(x=><Link className="card article-card" href={`/articles/${x.slug}`} key={x.slug}><span className="badge">{x.category}</span><h2>{x.title}</h2><p className="muted">{x.description}</p><small className="muted">{x.readingTime} min read</small></Link>)}</div>{!filtered.length&&<div className="notice">No guides match that search yet.</div>}</>}

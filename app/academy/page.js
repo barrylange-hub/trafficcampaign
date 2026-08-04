@@ -14,7 +14,7 @@ const paths=[
     steps:[
       ["How to Build a Traffic Campaign","/articles/how-to-build-a-traffic-campaign-that-you-can-actually-measure"],
       ["Campaign Builder","/tools/campaign-builder"],
-      ["UTM Tracking","/tools#utm-builder"],
+      ["UTM Tracking","/tools/utm-builder"],
       ["ROI Calculator","/tools/roi"]
     ]
   },

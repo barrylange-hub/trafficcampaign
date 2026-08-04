@@ -15,3 +15,7 @@
 .tool-feature p{max-width:720px}
 .tool-copy{max-width:900px}.tool-copy>p{font-size:18px;color:#334155}
 @media(max-width:820px){.builder-layout{grid-template-columns:1fr}.builder-row{grid-template-columns:1fr}.campaign-plan{position:static}.tool-feature{align-items:flex-start;flex-direction:column}}
+
+.tool-directory{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:18px}.tool-directory h3{font-size:22px;margin:4px 0 8px}.tool-anchor{scroll-margin-top:90px}.tool-detail{display:grid;grid-template-columns:minmax(0,480px) 1fr;gap:44px;align-items:start}.tool-explain{padding:4px 0}.tool-explain h2{font-size:34px;margin:0 0 10px}.tool-explain h3{margin:28px 0 8px;font-size:20px}.tool-explain p{font-size:17px;color:#334155}.formula{padding:16px 18px;border:1px solid var(--line);border-radius:12px;background:#f8fafc;font-weight:800}.copybtn{margin-top:12px;border:1px solid #cbd5e1;background:#fff;color:var(--navy);padding:8px 11px;border-radius:9px;font-weight:800;cursor:pointer}.copybtn:hover{border-color:var(--blue);color:var(--blue)}
+@media(max-width:900px){.tool-directory{grid-template-columns:repeat(2,1fr)}.tool-detail{grid-template-columns:1fr}}
+@media(max-width:560px){.tool-directory{grid-template-columns:1fr}}

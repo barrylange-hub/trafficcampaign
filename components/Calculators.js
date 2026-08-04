@@ -1,5 +1,4 @@
 "use client";
-import {useMemo,useState} from "react";
-const SPECS={roi:{name:"ROI Calculator",a:"Revenue",b:"Total cost",prefix:"",suffix:"%",calc:(a,b)=>b?((a-b)/b)*100:0},roas:{name:"ROAS Calculator",a:"Revenue",b:"Ad spend",prefix:"",suffix:"×",calc:(a,b)=>b?a/b:0},ctr:{name:"CTR Calculator",a:"Clicks",b:"Impressions",prefix:"",suffix:"%",calc:(a,b)=>b?(a/b)*100:0},cpc:{name:"CPC Calculator",a:"Ad spend",b:"Clicks",prefix:"$",suffix:"",calc:(a,b)=>b?a/b:0},cac:{name:"CAC Calculator",a:"Sales & marketing cost",b:"New customers",prefix:"$",suffix:"",calc:(a,b)=>b?a/b:0}};
-function Calculator({kind}){const s=SPECS[kind];const[a,setA]=useState(1000);const[b,setB]=useState(250);const r=useMemo(()=>s.calc(a,b),[a,b,s]);return <div className="card calc"><h2 style={{fontSize:25,marginTop:0}}>{s.name}</h2><div className="field"><label>{s.a}</label><input type="number" value={a} onChange={e=>setA(Number(e.target.value))}/></div><div className="field"><label>{s.b}</label><input type="number" value={b} onChange={e=>setB(Number(e.target.value))}/></div><div className="result"><span className="muted">Result</span><strong>{s.prefix}{Number.isFinite(r)?r.toFixed(2):"0.00"}{s.suffix}</strong></div></div>}
-export default function Calculators(){return <div className="calc-grid">{Object.keys(SPECS).map(k=><Calculator key={k} kind={k}/>)}</div>}
+import ToolCalculator from "@/components/ToolCalculator";
+const kinds=["roi","roas","ctr","cpc","cac","cpm","conversion","breakeven","budget"];
+export default function Calculators(){return <div className="calc-grid">{kinds.map(k=><div key={k}><ToolCalculator kind={k} compact/></div>)}</div>}

@@ -1,1 +1,2 @@
-import Link from"next/link";export default function NotFound(){return <div className="article"><div className="kicker">404</div><h1>That page took a wrong turn.</h1><p className="lead">The page you requested doesn’t exist or has moved.</p><Link className="btn" href="/">Back home</Link></div>}
+import Link from "next/link";
+export default function NotFound(){return <div className="article"><div className="kicker">404</div><h1>That page took a wrong turn.</h1><p className="lead">The page you requested doesn’t exist or has moved.</p><div className="actions"><Link className="btn" href="/">Back to Home</Link><Link className="btn2" href="/start-here">Start Here</Link></div></div>}

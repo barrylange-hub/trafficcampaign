@@ -22,7 +22,7 @@ Choose lowercase names and use the same naming convention every time. `facebook`
 
 ## Build your URL
 
-You can use the [TrafficCampaign UTM Builder](/tools) to create a properly tagged URL without manually editing query strings.
+You can use the [TrafficCampaign UTM Builder](/tools/utm-builder) to create a properly tagged URL without manually editing query strings.
 
 ## What not to tag
 

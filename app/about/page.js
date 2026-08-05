@@ -1,1 +1,9 @@
-export const metadata={title:"About"};export default function Page(){return <div className="article"><div className="kicker">About</div><h1>Marketing should be measurable.</h1><p className="lead">TrafficCampaign exists to make digital marketing campaigns easier to launch, track, understand, and improve.</p><h2>Our approach</h2><p>We focus on useful frameworks, clear explanations, practical tools, and resources that help marketers make better decisions without unnecessary complexity.</p><h2>Launch. Track. Optimize.</h2><p>Those three ideas guide everything we publish. Start with a clear objective, measure what matters, and use the data to improve.</p></div>}
+import Link from "next/link";
+export const metadata={title:"About TrafficCampaign",description:"Learn how TrafficCampaign creates practical, measurable marketing guidance, tools, and resources.",alternates:{canonical:"/about"}};
+export default function Page(){return <div className="article"><div className="kicker">About TrafficCampaign</div><h1>Marketing should be measurable.</h1><p className="lead">TrafficCampaign exists to make digital marketing campaigns easier to launch, track, understand, and improve.</p>
+<h2>Our approach</h2><p>We focus on useful frameworks, clear explanations, practical tools, and resources that help marketers make better decisions without unnecessary complexity.</p>
+<h2>Launch. Track. Optimize.</h2><p>Those three ideas guide everything we publish. Start with a clear objective, measure what matters, and use the data to improve.</p>
+<h2>How we build content</h2><p>We favor practical examples, transparent formulas, clear assumptions, and links to the next useful step. Calculators are designed as planning aids, not as substitutes for platform reporting, accounting, or professional advice.</p>
+<h2>Editorial standards</h2><p>Our goal is to publish content that is useful enough to act on. We update resources as the site develops and avoid adding complexity just for the sake of appearing comprehensive.</p>
+<p><Link href="/editorial-policy">Read our editorial policy →</Link></p>
+</div>}

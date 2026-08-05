@@ -1,0 +1,8 @@
+export const metadata={title:"Editorial Policy",description:"TrafficCampaign editorial standards for practical, accurate, transparent marketing content.",alternates:{canonical:"/editorial-policy"}};
+export default function Page(){return <div className="article"><div className="kicker">Editorial policy</div><h1>Useful, clear, and transparent.</h1><p className="lead">TrafficCampaign is built around practical marketing education. These standards guide the articles, calculators, templates, and learning paths we publish.</p>
+<h2>Practical usefulness first</h2><p>Every resource should help a reader make a decision, understand a metric, plan a campaign, or take a sensible next step.</p>
+<h2>Explain assumptions</h2><p>Marketing metrics rarely exist in a vacuum. We explain formulas, examples, and important limitations instead of presenting a single number as universal truth.</p>
+<h2>Keep calculations transparent</h2><p>Calculator pages show the formula being used so readers can understand what the result means and reproduce the math independently.</p>
+<h2>Separate education from professional advice</h2><p>TrafficCampaign provides educational marketing information. It is not financial, legal, tax, accounting, or investment advice.</p>
+<h2>Correct and improve</h2><p>When a page can be clearer, more accurate, or more useful, we improve it. Feedback can be sent through the Contact page.</p>
+</div>}

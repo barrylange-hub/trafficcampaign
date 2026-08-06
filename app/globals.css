@@ -33,3 +33,13 @@
 
 .hero-note{margin-top:18px;color:var(--slate);font-size:14px}.home-intro{display:grid;grid-template-columns:1fr 1fr;gap:36px;max-width:980px;margin:18px 0 8px}.home-intro p{font-size:18px;color:#334155}.home-principle{display:flex;align-items:center;justify-content:space-between;gap:38px}.home-principle>div{max-width:760px}
 @media(max-width:820px){.home-intro{grid-template-columns:1fr;gap:4px}.home-principle{align-items:flex-start;flex-direction:column}}
+
+/* UTM/tool layout overflow safeguards */
+.tool-detail>*{min-width:0}
+.tool-explain{min-width:0}
+.tool-explain .formula{max-width:100%;overflow-wrap:anywhere;word-break:break-word}
+.calc{min-width:0}
+.calc .result{min-width:0;max-width:100%;overflow:hidden}
+.calc .result>div{max-width:100%;overflow-wrap:anywhere;word-break:break-word}
+.field input,.field select{min-width:0;max-width:100%}
+@media(max-width:900px){.tool-detail{width:100%;max-width:100%}}

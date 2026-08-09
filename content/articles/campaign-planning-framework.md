@@ -18,19 +18,17 @@ faq3Answer: "It can, but a focused primary channel often makes an early campaign
 faq4Question: "When should campaign tracking be set up?"
 faq4Answer: "Before launch. Define the conversion, naming convention, campaign URLs, and measurement checks before traffic begins so the reporting is not reconstructed after the fact."
 ---
-Campaign planning has a strange tendency to become either **far too complicated or far too casual**.
+I've seen campaign planning go wrong in both directions.
 
-At one extreme is the giant strategy deck: dozens of slides, audience personas, channel diagrams, projections, and enough marketing terminology to make a straightforward promotion feel like a NASA launch.
+Sometimes a fairly simple promotion turns into a giant strategy deck full of personas, channel diagrams, projections, and marketing terminology. Other times the entire plan amounts to, *“Let's run some ads and see what happens.”*
 
-At the other extreme is: *“Let's run some ads and see what happens.”*
+I've worked in brand and digital marketing professionally for 13 years, and neither approach has ever struck me as particularly useful. What I want from a campaign plan is much simpler: **make the important decisions before the money starts going out the door.**
 
-Neither is especially useful.
+You should know what you're trying to accomplish, who you're trying to reach, what you want them to do, how you'll measure it, and when you'll decide whether the campaign deserves more money.
 
-After 13 years working professionally in brand and digital marketing, I keep coming back to a simpler idea: **a campaign plan should make the important decisions clear before money and time start moving.**
+That's what this framework is built to do.
 
-This guide gives you a seven-step framework for doing exactly that.
-
-> **The TrafficCampaign principle:** A campaign plan is not supposed to predict the future. It is supposed to make the campaign easier to execute, measure, and improve.
+> **A campaign plan doesn't need to predict the future. It needs to make the campaign easier to run and easier to understand once the numbers start coming in.**
 
 ## What is a marketing campaign plan?
 
@@ -54,7 +52,7 @@ A campaign is narrower.
 
 It has a defined objective, audience, message or offer, distribution method, measurement plan, and timeframe.
 
-The narrower scope is a feature—not a limitation.
+The narrower scope is a feature, not a limitation.
 
 ## Before you plan: start with the business question
 
@@ -153,13 +151,13 @@ Use the [Campaign Builder](/tools/campaign-builder) to force this first decision
 
 ## Step 2: Define the audience by situation, not trivia
 
-Traditional marketing exercises sometimes produce extraordinarily detailed personas.
+I've never been a big fan of audience personas stuffed with details that have no bearing on the campaign.
 
 “Jennifer is 38, drives an SUV, enjoys yoga, drinks oat-milk lattes, and listens to podcasts on Tuesdays.”
 
-Maybe all of that matters.
+Fine. But does any of that change the ad, offer, targeting, or landing page?
 
-Usually it doesn't.
+If not, it probably isn't helping us plan the campaign.
 
 For campaign planning, I care much more about **the situation that makes someone relevant to the offer**.
 
@@ -231,7 +229,7 @@ If an ad promises one thing and the landing page immediately changes the subject
 
 ## Step 4: Choose the primary channel
 
-Now—not before—you can choose the channel.
+Now, not before, you can choose the channel.
 
 Different channels are good at different jobs.
 
@@ -285,7 +283,7 @@ Every additional channel introduces:
 - another budget allocation decision,
 - and another attribution question.
 
-Start focused when you can. Expand because a channel has a clear role—not because a marketing plan looks more impressive with more logos on it.
+Start focused when you can. Expand because a channel has a clear role, not because a marketing plan looks more impressive with more logos on it.
 
 ## Step 5: Set the budget and timeframe together
 
@@ -325,7 +323,7 @@ Volume gives context.
 
 ## Step 6: Build tracking before launch
 
-This is one of the least glamorous parts of campaign planning—and one of the easiest to regret skipping.
+Tracking isn't the exciting part of a launch. It's also the part you'll wish you'd handled properly when someone asks three weeks later, “So which campaign actually generated these leads?”
 
 Before launch, decide:
 
@@ -358,7 +356,7 @@ For a simple lead campaign, that might mean:
 
 For a more complicated SaaS campaign, you might need to understand the path from click to trial to activation to paid account.
 
-The measurement system should serve the decision—not become the project.
+The measurement system should serve the decision, not become the project.
 
 ### Privacy belongs in the tracking plan
 
@@ -370,7 +368,7 @@ Decide what you genuinely need, understand the tools involved, and avoid putting
 
 ## Step 7: Write the review and decision rules
 
-This may be the most underrated step in the framework.
+This is the step I wish more campaign plans included.
 
 Before launch, write down **when you will review the campaign and what kinds of evidence will cause you to act.**
 
@@ -456,11 +454,7 @@ Lead quality is reviewed weekly with whoever handles sales.
 
 The campaign is not scaled simply because CTR looks good; budget increases require evidence that qualified leads are arriving at an acceptable acquisition cost.
 
-That is a campaign plan.
-
-It is not fancy.
-
-It is usable.
+That's enough to run the campaign intelligently. Nothing in that plan is there just to make the document look impressive.
 
 ## How to diagnose a campaign after launch
 
@@ -535,7 +529,7 @@ A campaign needs to know who it is talking to.
 
 ### Treating the landing page as separate from the campaign
 
-The click is the middle of the experience—not the finish line.
+The click is the middle of the experience, not the finish line.
 
 Your landing page, offer, form, checkout, sales process, and follow-up can all influence campaign performance.
 
@@ -590,6 +584,6 @@ Take the next practical step:
 5. Launch.
 6. Come back to the [Campaign Optimization Guide](/articles/how-to-optimize-a-marketing-campaign) once you have enough data to make a decision.
 
-The goal is not to create the perfect campaign plan.
+Don't wait for a perfect campaign plan. I've never seen one.
 
-The goal is to create a campaign that is **clear enough to launch, measurable enough to understand, and structured enough to improve.**
+Get the important decisions on paper, make sure the measurement works, and launch something you can actually learn from. A useful plan gives you enough structure to know what you tried, what happened, and what deserves to change next.

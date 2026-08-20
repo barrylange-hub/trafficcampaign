@@ -28,7 +28,7 @@ export default function Home(){
         <p className="hero-note">No account required. No bloated dashboards. Just practical tools and guidance.</p>
       </div>
       <div className="card dash">
-        <div className="topline"><div><div className="muted"><b>Example campaign</b></div><h3 style={{fontSize:26,margin:"4px 0"}}>Summer Growth Push</h3></div><span className="badge">REPORT</span></div>
+        <div className="topline"><div><div className="muted"><b>Example campaign</b></div><div style={{fontSize:26,margin:"4px 0",fontWeight:800,lineHeight:1.2}}>Summer Growth Push</div></div><span className="badge">REPORT</span></div>
         <p className="muted">A useful report should help you answer: Is the campaign working, what is driving the result, and what should change next?</p>
         <div className="metrics"><div className="metric"><small>ROAS</small><b>4.8×</b></div><div className="metric"><small>CTR</small><b>3.9%</b></div><div className="metric"><small>CPA</small><b>$28</b></div></div>
         {[["Search",78],["Social",57],["Email",42]].map(([n,w])=><div key={n} style={{marginTop:22}}><div style={{display:"flex",justifyContent:"space-between"}}><span>{n}</span><b>{w}%</b></div><div className="bar" style={{width:`${w}%`}}/></div>)}

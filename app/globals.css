@@ -75,3 +75,15 @@
   .article{width:min(760px,calc(100% - 2rem));max-width:100%}
   .article code{font-size:.92em}
 }
+
+/* Reusable article comparison tables */
+.article-table-wrap{margin:24px 0 30px;max-width:100%;min-width:0}
+.article-table-scroll{max-width:100%;overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:#fff;-webkit-overflow-scrolling:touch}
+.article-table{width:100%;min-width:780px;border-collapse:collapse;font-size:15px;line-height:1.45}
+.article-table th,.article-table td{padding:14px 16px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);overflow-wrap:normal;word-break:normal}
+.article-table th{background:#f8fafc;color:var(--navy);font-size:12px;text-transform:uppercase;letter-spacing:.055em;font-weight:900;white-space:nowrap}
+.article-table tbody tr:last-child td{border-bottom:0}
+.article-table tbody tr:nth-child(even){background:#fbfdff}
+.article-table td:first-child{font-weight:800;color:var(--navy);white-space:nowrap}
+.article-table-hint{display:none;margin-top:7px;font-size:11px;color:var(--slate);font-weight:700;text-align:right}
+@media(max-width:820px){.article-table{min-width:720px;font-size:14px}.article-table th,.article-table td{padding:12px 13px}.article-table-hint{display:block}}
